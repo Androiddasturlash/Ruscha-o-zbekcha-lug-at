@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarDetail"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/txtRussianDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="аз"
+                    android:textColor="#222222"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:padding="12dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtUzbekDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="az"
+                android:textColor="#444444"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:padding="12dp" />
+
+            <TextView
+                android:id="@+id/txtWordType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="So'z turi"
+                android:textColor="#222222"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:padding="12dp"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txtExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Misol"
+                android:textColor="#444444"
+                android:textSize="17sp"
+                android:padding="12dp"
+                android:background="#FFFFFF" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

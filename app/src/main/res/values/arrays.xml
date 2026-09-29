@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Ruscha harflar -->
+    <string-array name="russian_letters">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ё</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>Н</item>
+        <item>С</item>
+    </string-array>
+
+    <!-- SQLite uchun kichik harflar -->
+    <string-array name="query_letters">
+        <item>а</item>
+        <item>б</item>
+        <item>в</item>
+        <item>г</item>
+        <item>д</item>
+        <item>е</item>
+        <item>ё</item>
+        <item>ж</item>
+        <item>з</item>
+        <item>н</item>
+        <item>с</item>
+    </string-array>
+
+</resources>
