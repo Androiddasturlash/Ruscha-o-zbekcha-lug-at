@@ -4,6 +4,3 @@ Bizni ijtimoiy tarmoqlarda kuzating...
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@AndroidDasturlashUZ2026)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/androidstudio2026)
-
-
-[![Videoni ko'rish](https://img.shields.io/badge/YouTube-Videoni_ko'rish-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=E0AC-bFcKiE&t=64s)
